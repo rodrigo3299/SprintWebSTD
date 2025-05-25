@@ -1,0 +1,201 @@
+body {
+	height: 100%;
+	margin: 0;
+	background-image: linear-gradient(to bottom, rgb(44, 44, 44), rgb(32, 32, 32), rgb(22, 22, 22), rgb(0, 0, 0));
+}
+
+header{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    text-shadow: 1px 1px 2px black;
+    border-bottom: 2px solid aliceblue;
+}
+
+.galeria1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 20px;
+}
+
+.galeria2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 20px;
+}
+
+.icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+.equipe{
+	padding: 0,5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.cartao{
+	color: aliceblue;
+	text-align: center;
+	;
+}
+  
+.icone{
+	width: 70px;
+	height: 80px;
+}
+
+
+svg{
+    padding: 50px;
+    align-items: center;
+    text-align: center; 
+    justify-content: center;
+    display: block; 
+    margin: 0 auto; 
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-align: center; 
+}
+
+h2{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(117, 132, 145);
+    text-align: center; 
+    border-radius: 10px;
+    border: 3px solid aliceblue;
+    background-color: aliceblue;
+}
+
+br{
+color: aliceblue;
+width: 30px;
+border: 3px;
+}
+
+p{
+	width: 65%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-align: center; 
+	display: flex;
+	flex-direction: row
+	right: 0;
+	margin: 0 auto;
+
+}
+
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-align: center; 
+    
+}
+
+.container {
+	padding: 10px;
+	height: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+}
+.header-bar {
+	padding: 10px;
+	position: relative;
+	width: 50%;
+	min-width: 300px;
+	height: 50px;
+	border: 10px solid transparent;
+	border-top: 10px solid #fffa;
+	border-left: 10px solid #fffa;
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25) inset;
+}
+.header-bar::after {
+	content: '';
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	width: 30%;
+	height: 49px;
+	border: 10px solid transparent;
+	border-bottom: 10px solid #fffa;
+	border-right: 10px solid #fffa;
+	transition: 0.3s linear all;
+}
+.header-bar > .logo {
+	position: absolute;
+	top: calc(50% - 20px);
+	left: 10px;
+	transform: translateY(-50%);
+	color: #fffc;
+	font-family: 'Verdana', cursive;
+	cursor: default;
+	user-select: none;
+}
+.slider-menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+.slider-menu > li {
+	display: inline-flex;
+	padding: 14px;
+	margin-left: 2px;
+	font-family: 'Verdana', sans-serif;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.3s linear all;
+	user-select: none;
+}
+.slider-menu > li:hover {
+	color: #faa;
+	box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
+}
+.aeu-signature {
+	position: fixed;
+	top: 5px;
+	left: 50%;
+	transform: translate(-50%);
+	font-size: 15px;
+	line-height: 30px;
+	background-color: #fff;
+	padding: 5px 10px;
+	border-radius: 25px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.aeu-signature { font-family: "Verdana"; }
+.aeu-signature > img { height: 30px; }
+
+hr{
+	width: 40%;
+}
